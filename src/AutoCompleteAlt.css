@@ -1,0 +1,41 @@
+.auto-complete-container-alt {
+    text-align: center;
+}
+
+.active-index-alt {
+    border: solid 2px #52a4b3;
+    border-radius: 5px;
+}
+
+.selected-index-alt {
+    background: #52a4b3 !important;
+}
+
+.input-box-alt {
+    margin: 10px;
+    width: 50%;
+    height: 20px;
+    font-size: 15px;
+}
+
+.results-container-alt {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.results-alt {
+    background: #fff;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.item-name-alt {
+    font-size: 20px;
+}
+
+.item-tag-alt {
+    color: gray;
+    font-size: 14px;
+}

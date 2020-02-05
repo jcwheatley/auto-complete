@@ -1,0 +1,44 @@
+.active-index {
+    border: solid 2px navy;
+    border-radius: 5px;
+}
+
+.selected-index {
+    background: lightblue;
+}
+
+.auto-complete-container {
+    text-align: center;
+}
+
+.input-box {
+    margin: 10px auto;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+}
+
+.results-container {
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+}
+
+.results {
+    justify-content: flex-start;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.item-name{
+    font-size: 20px;
+    color: navy;
+}
+
+.item-tag{
+    color: gray;
+    font-size: 14px;
+}

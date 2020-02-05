@@ -1,5 +1,5 @@
 .auto-complete-container-alt {
-    text-align: center;
+    display: flex;
 }
 
 .active-index-alt {
@@ -11,14 +11,19 @@
     background: #52a4b3 !important;
 }
 
-.input-box-alt {
-    margin: 10px;
+.input-box-container-alt {
     width: 50%;
-    height: 20px;
-    font-size: 15px;
+}
+
+.input-box-alt {
+    margin: 35% 30px 10px 30px;
+    width: 60%;
+    height: 40px;
+    font-size: 26px;
 }
 
 .results-container-alt {
+    margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -32,10 +37,12 @@
 }
 
 .item-name-alt {
+    margin: 10px 10px 10px 0;
     font-size: 20px;
 }
 
 .item-tag-alt {
+    margin: 10px;
     color: gray;
     font-size: 14px;
 }

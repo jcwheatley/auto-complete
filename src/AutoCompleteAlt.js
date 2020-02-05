@@ -74,12 +74,14 @@ class AutoCompleteAlt extends Component {
     render() {
         return (
             <div className={"auto-complete-container-alt"}>
-                <input 
-                    className="input-box-alt" 
-                    value={this.state.inputValue} 
-                    onChange={e => this.inputChangeHandler(e)} 
-                    onKeyDown={ this.keyDownHandler }
-                    placeholder="Please Enter a Location..."/>
+                <div className="input-box-container-alt">
+                    <input 
+                        className="input-box-alt" 
+                        value={this.state.inputValue} 
+                        onChange={e => this.inputChangeHandler(e)} 
+                        onKeyDown={ this.keyDownHandler }
+                        placeholder="Please Enter a Location..."/>
+                </div>
                 <div className="results-container-alt">
                     {this.state.myArray.map((item, i) => (
                         

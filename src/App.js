@@ -44,7 +44,6 @@ function App() {
           <Route path="/">
             <AutoComplete />
           </Route>
-          
         </Switch>
       </div>
     </Router>
